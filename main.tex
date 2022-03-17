@@ -1,0 +1,45 @@
+% Choose scrartcl (normal document)
+\documentclass[
+  bibliography=totoc,     % Literatur im Inhaltsverzeichnis
+  captions=tableheading,  % Tabellenüberschriften
+  titlepage=false, % Titelseite ist Deckblatt
+  twocolumn=true,
+  parskip= half,
+  abstract=true,
+]{scrartcl}
+% Or beamer (slides)
+%\documentclass[aspectratio=169]{beamer}
+%\input{beamer.tex} % look in there for more beamer settings 
+
+% Set language here
+\usepackage[english]{babel}
+
+\input{header.tex}
+
+\title{Popper Reigns Supreme}
+\subject{Philosophy of Science -- Essay II on \emph{Theory testing}}
+
+\addbibresource{references.bib}
+
+
+\begin{document}
+
+% For the beamer class:
+%\begin{frame}
+%	\titlepage
+%\end{frame}
+%\begin{frame}{Table of contents}
+%	\setbeamertemplate{section in toc}[sections numbered]
+%	\tableofcontents[hideallsubsections]
+%\end{frame}
+
+\maketitle
+
+\input{content/essay.tex}
+
+
+\newpage
+\printbibliography
+
+\end{document}
+
