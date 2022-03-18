@@ -1,5 +1,6 @@
 Here comes an abstract/introduction -----
 
+\section{Induction and Empiricism}
 
 It is not a bold claim to say that most sciences,
 or what is generally excepted to be science, follow
@@ -32,19 +33,109 @@ work great.
 Science builds its foundation on empirical evidence for its
 claims and thus using inductive arguments and even in everyday
 life inductive arguments are a powerful guide.
-But if inductive arguments are not logically valid, what makes them work?
 
+A proposed formalization of a scientific method is the
+hypothetico-deductive (HD) model. Roughly speaking,
+in the HD model science starts by formulating a research question,
+which addresses some observable phenomenon.
+Science then formulates a hypothesis $H$, so that if the hypothesis is true,
+it can explain the observed phenomenon. From $H$, scientists
+derive another testable prediction and compare that prediction
+to empirical observation.
+If the observation is in contradiction with the hypothesis, we reject it,
+and if it agrees, we have \emph{partially} confirmed it.
+Notice the emphasis on \enquote{partially} there: due to the
+non-truth preserving nature of induction, we can not confirm the
+hypothesis with the HD method.
+
+
+\section{Proofing induction}
+
+But if inductive arguments are not logically valid, what makes them work?
 Hume argues there are two different possibilities to vindicate induction.
 We can either employ an inductive argument, but since that is
 the very thing we want to conclude, we have no grounds on
 using it in the first place, or we can use a deductive argument.
-This means we need a general hypothesis from which to conclude the
+This means we need a premise from which to conclude the
 validity of induction.
-From something like \enquote{Things which have been proven to hold true in
+From a premise like \enquote{Things which have been proven to hold true in
     the past, will continue to do so in the future.} we can derive
-that induction is valid, since it has proven to hold true in the past,
-and with this law we can derive it will continue to do so in the future.
-But the premises of the deductive argument to vindicate induction
-seem to include statements we think of as true because of inductive
-reasoning. This is obviously question-begging.
-This is David Hume's riddle of induction.
+that induction is valid, since it has proven to hold in the past.
+% and with this law we can derive it will continue to do so in the future.
+But the premises of this deductive argument
+seems to be justified in our experience that
+\enquote{The future will be similar to the past}, which is
+valid by induction.
+This is obviously question-begging and what
+David Hume identified as a riddle of induction.
+Any obvious further attempts to justify induction
+ultimately end up in circular reasoning by applying inductive arguments to
+vindicate induction.
+Hume did not think of this argument as the end of induction, merely
+he believed, that the right reasoning to vindicate induction
+still has to be found \cite[173]{philsciencebook}.
+
+% this might be ooptional
+Sadly, this is not the only problem with the HD model.
+There arises an interesting problem if we ask what kind of empirical evidence
+should count toward partially confirming a hypothesis.
+Think of our black swan example again. Let us logically rephrase
+the hypothesis \enquote{All swans are white.} (H1)
+to \enquote{All non-white things are not swans.} (H2).
+% puhhh, i made better arguments before
+To see that H1 and H2 are logically equivalent statements, think of a counter example:
+if we see a non-white thing, which is a swan, we can reject the H1, but
+we also encountered a swan which is not white, so we can also reject H2.
+Now, if we \enquote{measure} a blue-yellow flag, we have encountered a
+non-white thing, which is not a swan, so clearly evidence for H2.
+But since H1 and H2 are equivalent, we also partially confirmed H1.
+Can the existence of blue-yellow flags confirm \enquote{All swans are white.}?
+This thought is at least very counter-intuitive and this \enquote{
+    paradox of confirmation
+} was created by Carl G. Hempel \cite[193]{philsciencebook}.
+Hempel suggested that the right way to move on is to simply
+accept, that a blue-yellow flag counts as a positive instance of
+\enquote{All swans are white.}.
+
+The problems of induction do not end here, even if we believe that
+the paradox of confirmation is just an unimportant hypothetical
+construct.
+    [[[maybe explain the grue emerald here]]]
+
+\section{Falsificationism}
+Sir Karl Popper took Hume's riddle of induction very seriously.
+With his \emph{falsificatonism} he sought out to eliminate the
+problems with induction by arguing they are pseudo-problems after all.
+Popper probably still remains today the most influential philosopher of science
+among scientists.
+To understand Popper's philosophy and his solution to the problems of induction,
+it is good to understand where he was coming from.
+He was a close friend to the Vienna circle of the logical empiricist,
+although not a constant member.
+As they found themselves in the rise of European fascism, which
+legitimized their views with a lot of pseudo-science,
+Popper developed a demarcation criterion to distinguish
+between science and pseudo-science: falsification.
+According to Popper, what makes a Hypothesis scientific is \emph{not}
+the recurring employment of inductive reasoning, by
+finding more and more instances which confirm a theory,
+since Hume's riddle of induction shows that it
+is not logically valid.
+Instead, a scientific theory is \emph{falsifiable},
+it predicts at least one risky consequence which
+can theoretically turn out to be wrong.
+Science is then the process of constantly testing and
+questioning hypotheses by trying to dis-proof them
+-- the hypothesis which survives the extensive
+attempt to proof it wrong is a good scientific hypothesis.
+
+How does this solve the problems with induction?
+It doesn't really -- it just takes them seriously and
+employs a deductive methodology for science instead:
+If we observe a black swan, it is deductively valid to conclude
+that the hypothesis \enquote{All swans are white.} is wrong --
+by using the power of counter-examples.
+From this perspective science does not
+give evidence that a hypothesis is true,
+instead the best it can do is to claim that a hypothesis is not
+wrong (yet), and has withstood severe testing.
