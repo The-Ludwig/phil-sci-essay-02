@@ -1,5 +1,7 @@
-My second essay for the course "Philosophy of Science I" at Stockholm University Spring 2022
+"Paradigm Shifts by Falsification"
 ===
+My second essay for the course "Philosophy of Science I" at Stockholm University Spring 2022
+
 [Latest PDF Version](https://github.com/The-Ludwig/phil-sci-essay-02/releases/latest/download/phil-sci-essay-02.pdf)
 [![Build LaTeX](https://github.com/The-Ludwig/phil-sci-essay-02/actions/workflows/build.yml/badge.svg)](https://github.com/The-Ludwig/phil-sci-essay-02/actions/workflows/build.yml)
 
